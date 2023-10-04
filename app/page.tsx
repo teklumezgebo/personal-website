@@ -27,7 +27,17 @@ export default function Home() {
             <div className="textbox">
               <h2>Learning, learning, learning...</h2>
               <small>February 2023</small>
-              <p>Sameple text</p>
+              <p>
+                Once I got a good grasp of JavaScript I went ahead and made my first ever project. I decided to make something that I know people around me could use. Albeit the group
+                is a little niche, but where I am from breweries are very popular and it seemed like there was always a conversation about what new brewery people should try. So that 
+                led me to try and find a solution. What I did was create a SPA that allowed users to serve up 5 random breweries across the US utilizing plain old JavaScript, HTML, and CSS. 
+              </p>
+              <br></br>
+              <p>You can check it out here: <a href="https://github.com/teklumezgebo/Random-Brewery-Generator">Github</a></p>
+              <br></br>
+              <p>Here's a demo as well 🙂</p>
+              <br></br>
+              <iframe width="440" height="315" src="https://www.youtube.com/embed/lRaIQAyyoow?si=9QADSlydrk_AJRlR" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/>
               <span className="right-container-arrow"></span>
             </div>
           </div>
@@ -35,9 +45,11 @@ export default function Home() {
           <div className="container left-container">
             <Image className="img" src={blackcircle} alt='circle' width={40} height={40}/>
             <div className="textbox">
-              <h2></h2>
-              <small>year - year</small>
-              <p>Sameple text</p>
+              <h2>Getting the hang of things.</h2>
+              <small>April 2023</small>
+              <p>
+                Moving further int
+              </p>
               <span className="left-container-arrow"></span>
             </div>
           </div>
@@ -45,7 +57,7 @@ export default function Home() {
           <div className="container right-container">
             <Image className="img" src={blackcircle} alt='circle' width={40} height={40}/>
             <div className="textbox">
-              <h2>The start</h2>
+              <h2></h2>
               <small>year - year</small>
               <p>Sameple text</p>
               <span className="right-container-arrow"></span>

@@ -90,7 +90,7 @@ body {
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 6s linear forwards;
+    animation: moveline 4s linear forwards;
 }
 
 @keyframes moveline {
@@ -136,21 +136,21 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .timeline{
+  .timeline {
     margin: 50px auto;
   }
-  .timeline::after{
+  .timeline::after {
     left:31px;
   }
-  .container{
+  .container { 
     width: 100%;
     padding-left: 80px;
     padding-right: 25px;
   }
-  .textbox{
+  .textbox {
     font-size: 13px;
   }
-  .textbox small{
+  .textbox small {
     margin-bottom: 10px;
   }
   .right-container {
@@ -160,9 +160,13 @@ body {
     left: 10px;
   }
 
-  .left-container-arrow, .right-container-arrow{
+  .left-container-arrow, .right-container-arrow {
     border-right: 15px solid #fff;
     border-left: 0;
     left: -15px;
   }
+}
+
+.title {
+  text-align: center;
 }
