@@ -50,6 +50,10 @@ body {
   animation-delay: 4s;
 }
 
+.container:nth-child(6) {
+  animation-delay: 5s;
+}
+
 
 .textbox{
     padding: 20px 30px;
@@ -85,12 +89,12 @@ body {
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #fff;
+    background: #000000;
     top: 0;
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 4s linear forwards;
+    animation: moveline 6s linear forwards;
 }
 
 @keyframes moveline {
