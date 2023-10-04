@@ -32,11 +32,9 @@ export default function Home() {
                 is a little niche, but where I am from breweries are very popular and it seemed like there was always a conversation about what new brewery people should try. So that 
                 led me to try and find a solution. What I did was create a SPA that allowed users to serve up 5 random breweries across the US utilizing plain old JavaScript, HTML, and CSS. 
               </p>
-              <br></br>
-              <p>You can check it out here: <a href="https://github.com/teklumezgebo/Random-Brewery-Generator">Github</a></p>
-              <br></br>
-              <p>Here's a demo as well 🙂</p>
-              <br></br>
+              <br/>
+              <p>You can check it out <a href="https://github.com/teklumezgebo/Random-Brewery-Generator">here</a>.</p>
+              <br/>
               <iframe width="440" height="315" src="https://www.youtube.com/embed/lRaIQAyyoow?si=9QADSlydrk_AJRlR" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/>
               <span className="right-container-arrow"></span>
             </div>
@@ -48,8 +46,15 @@ export default function Home() {
               <h2>Getting the hang of things.</h2>
               <small>April 2023</small>
               <p>
-                Moving further int
+                Moving further into the bootcamp I became more comfortable with JavaScript, HTML, and CSS. It was time to dig a little deeper and learn my first framework/library, React! From the start
+                I really enjoyed using React. There was a little bit of a learning curve when it came to handling state and knowing best practices when it came to state and props, but once I started to understand
+                things really started to click for me. With my next project I used my newly aquired skills and created a productivity app that allows users to keep track of all of their tasks and log journal entries
+                to keep track of their thoughts. Althoug not a very complex project, this project really helped solidify my knowledge with React and its features like state management, prop handling, and routing. 
               </p>
+              <br/>
+              <p>You can check it out <a href="https://github.com/teklumezgebo/Productivity-Hub">here</a>.</p>
+              <br/>
+              <iframe width="440" height="315" src="https://www.youtube.com/embed/gRF7mtIanWc?si=OkwoQ4bY0wHNICnR" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               <span className="left-container-arrow"></span>
             </div>
           </div>
